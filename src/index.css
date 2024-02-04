@@ -7,12 +7,12 @@
 }
 
 :root {
-  --azul-escuro: #041833;
+  --azul-escuro: #072041;
   --azul-medio: #1875E8;
   --cor-fonte-principal: #041833;
   --cor-fonte-post: #444444;
   --branco: #FFF;
-  --fonte-principal: "poppins", sans-serif;
+  --fonte-principal: "Poppins", sans-serif;
   --fonte-secundaria: Arial, sans-serif;
 
   font-family: var(--fonte-principal);
