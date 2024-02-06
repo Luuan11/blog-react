@@ -6,6 +6,7 @@ export default function MenuLink({children, to}) {
 
     return(
         <Link className={`
+            ${styles.navLink}
             ${localiton.pathname === to ? styles.textMarked : ""}
             `} to={to}>
                 {children}

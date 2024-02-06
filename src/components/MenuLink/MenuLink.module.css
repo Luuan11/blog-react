@@ -1,7 +1,12 @@
-.navMenu a{
+.navLink {
     font-size: 1.25rem;
     line-height: 1.5rem;
-    color: var(--cor-fonte-principal);
+    color: #fff;
+    transition: text-decoration 2s;
+}
+
+.navLink:hover{
+    text-decoration: underline;
 }
 
 .textMarked{
