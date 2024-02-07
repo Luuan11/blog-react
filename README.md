@@ -1,7 +1,7 @@
 Project in construction 
 
 ## 💬 Sobre
-
+Página web, com diversos posts de diversos assuntos, voltada para um blog pessoal, divirtam-se!
 
 ## 💡 Tecnologias:
 
