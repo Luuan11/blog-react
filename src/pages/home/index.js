@@ -2,6 +2,7 @@ import Banner from "components/Banner";
 import styles from "./home.module.css";
 
 import posts from "json/posts.json";
+import Post from "components/Post";
 
 export default function Home() {
     return (
@@ -12,7 +13,7 @@ export default function Home() {
             <ul className={styles.posts}>
                 {posts.map((post) => 
                     <li key={post.id}> 
-                        Ler mais.
+                        <Post post={post} />
                     </li>
                 )}
             </ul>
