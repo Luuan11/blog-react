@@ -1,4 +1,7 @@
 import Banner from "components/Banner";
+import styles from "./home.module.css";
+
+import posts from "json/posts.json";
 
 export default function Home() {
     return (
@@ -6,7 +9,13 @@ export default function Home() {
 
             <Banner />
 
-            <h1>Olá</h1>
+            <ul className={styles.posts}>
+                {posts.map((post) => 
+                    <li key={post.id}> 
+                        Ler mais.
+                    </li>
+                )}
+            </ul>
 
         </main>
     )
