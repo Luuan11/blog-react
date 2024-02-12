@@ -1,7 +1,9 @@
+import PostModelo from "components/PostModelo";
+
 export default function About() {
     return (
-        <main>
-
-        </main>
+        <PostModelo >
+            Testando...
+        </PostModelo>
     )
 }
