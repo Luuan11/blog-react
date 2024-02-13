@@ -4,9 +4,11 @@
     justify-content: center;
     align-items: center;
     column-gap: 3rem;
-    background-color: var(--azul-escuro);
+    background-color: var(--color-main);
     color: #fff;
 
+    /* border-bottom: 2px solid var(--color-border); */
+    /* margin-bottom: 80px; */
 }
 
 @media (max-width: 744px) {

@@ -2,13 +2,17 @@
     font-size: 1.25rem;
     line-height: 1.5rem;
     color: #fff;
-    transition: text-decoration 2s;
+    transition: all 0.1s;
 }
 
 .navLink:hover{
     text-decoration: underline;
+    text-decoration-color: var(--color-border);
 }
 
 .textMarked{
     text-decoration: underline;
+    text-decoration-color: var(--color-border);
+
+    /* alterar */
 }

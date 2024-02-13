@@ -7,8 +7,10 @@
 }
 
 :root {
-  --azul-escuro: #072041;
-  --azul-medio: #1875E8;
+  --color-main: #072041;
+  --color-segun: #1875E8;
+  --color-hover:#3483e2e6;
+  --color-border:#c880f8;
   --cor-fonte-principal: #041833;
   --cor-fonte-post: #444444;
   --branco: #FFF;
