@@ -2,7 +2,7 @@ import styles from "./PostModelo.module.css"
 
 export default function PostModelo( { children, FotoCapa, title } ){
     return (
-        <main className={styles.PostModeloContainer}>
+        <main className={styles.postCard}>
           <div className={styles.FotoCapa} />
 
           <h1>Sobre mim</h1>
