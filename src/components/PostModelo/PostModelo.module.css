@@ -2,61 +2,28 @@
     color: var(--cor-fonte-post);
     position: relative;
 
-    padding-left: 1rem;
+    padding: 1rem 1.5rem;
+    /* padding-left: 1rem;
     padding-right: 1rem; 
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem; 
-    margin-top: 1.5rem; 
+    padding-bottom: 1.5rem;  */
     max-width: 72rem; 
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
+
+    margin: auto;
+    border: 0.2px solid rgb(156 163 175);
+    transition: all .2s;
 }
 
-.fotoCapa,
-.title {
-    height: 204px;
+.postCard:hover{
+    border: 0.2px solid var(--color-border);
 }
 
-.fotoCapa {
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 0.3;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-}
 
-.titulo {
-    font-family: var(--fonte-secundaria);
-    padding: 0 7.5rem;
-    font-size: 4rem;
-    display: flex;
-    align-items: center;
-}
-
-.postConteudoContainer {
-    padding: 2.5rem 7.5rem 4.5rem;
-}
-
-@media (max-width: 744px) {
-    .postConteudoContainer {
-        padding: 2rem 1.5rem 1.5rem;
-    }
-}
-
-@media (max-width: 744px) {
-
-    .fotoCapa,
-    .titulo {
-        height: 104px;
+@media (max-width: 1100px) {
+    .postCard{
+        margin: 30px 30px 0px 30px;
     }
 
-    .titulo {
-        padding: 0 1rem;
-        font-size: 2rem;
-    }
-
-    .postConteudoContainer {
-        padding: 2rem 1rem 1.5rem;
-    }
 }
+

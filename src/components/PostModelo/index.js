@@ -1,19 +1,20 @@
 import styles from "./PostModelo.module.css"
 
-export default function PostModelo( { children, FotoCapa, title } ){
+export default function PostModelo( { children, title } ){
     return (
         <main className={styles.postCard}>
-          <div className={styles.FotoCapa} />
+          <div> 
+            <h1>Sobre mim</h1>
 
-          <h1>Sobre mim</h1>
-          <h2 className={styles.title}>
-            {title}
-          </h2>
+            <p className={styles.title}>
+              {title}
+            </p>
 
-          <div className={styles.PostContainer}>
-            {children}
+            <div className={styles.PostContainer}>
+              {children}
+            </div>
+            
           </div>
-
         </main>
       )
     }
