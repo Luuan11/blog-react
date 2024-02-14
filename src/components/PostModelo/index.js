@@ -13,7 +13,7 @@ export default function PostModelo( { title, about, children } ){
               {title}
             </p>
 
-            <div >
+            <div>
               {children}
             </div>
 

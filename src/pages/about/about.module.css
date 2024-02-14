@@ -1,14 +1,23 @@
 .socialCards{
     margin-top: 15px;
+
+    display: flex;
+    align-items: center;
 }
 
 .socialCards a{
+    margin: 5px;
     padding: 0.5rem; 
     border-radius: 0.375rem; 
-    border-width: 1px; 
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 300ms; 
+    border: 1px solid var(--cor-fonte-post);
+    transition: all .2s;
+    
+}
+
+.socialCards a:hover{
+    border: 1px solid var(--color-border);
+    background-color: var(--color-border);
+    color: #fff;
 }
 
 .myNetwork{

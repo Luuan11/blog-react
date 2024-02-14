@@ -4,9 +4,9 @@
     text-align: center;
     width: 282px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
-    border: 1.8px solid rgb(156 163 175);
+    border: 1.8px solid var(--cor-fonte-post);
     border-radius: 8px;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     transition: all .2s;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
 }
@@ -30,8 +30,15 @@
     margin: 1.5rem 0 1.75rem;
 }
 
+.btnFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .btnread {
-    display: inline-block;
+    display: flex;
+    gap: 5px;
     border-radius: 24px;
     padding: 0.75rem 1.5rem;
     font-size: 1.125rem;
@@ -40,13 +47,14 @@
     color: black;
     border: 1.6px solid var(--cor-fonte-post);
     cursor: pointer;
-    transition: all 0.5s
+    transition: all 0.5s;
 }
 
 .btnread:hover {
     background-color: var(--color-hover);
     border: 1.6px solid var(--color-hover);
     color: var(--branco);
+    gap: 12px;
 }
 
 @media (max-width: 1100px) {
@@ -56,7 +64,7 @@
     .titulo {
         font-weight: 600;
     }
-    .botaoLer {
+    .btnread {
         padding: 0.6875rem 1.5rem;
         font-size: 1.375rem;
     }

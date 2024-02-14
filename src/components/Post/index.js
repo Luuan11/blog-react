@@ -1,3 +1,4 @@
+import { FaLongArrowAltRight } from "react-icons/fa";
 import styles from "./Post.module.css";
 
 export default function Post( { post } ) {
@@ -12,9 +13,11 @@ export default function Post( { post } ) {
                 {post.title}
             </h2>
 
-            <button className={styles.btnread}>
-                Saiba mais
-            </button>
+            <div className={styles.btnFlex}>
+                <button className={styles.btnread}>
+                    Saiba mais <FaLongArrowAltRight />
+                </button>
+            </div>
         </div>
     )
 }
