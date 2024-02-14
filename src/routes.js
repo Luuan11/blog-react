@@ -17,7 +17,7 @@ function AppRoutes() {
           <Route path="/sobre" element={<About />}  />
         </Route>
 
-        <Route path="*" element={<div>Pagina não encontrada :( </div>}  />
+        <Route path="*" element={<div> Pagina não encontrada :( </div>}  />
       </Routes>
 
       <Footer />

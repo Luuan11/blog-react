@@ -36,16 +36,17 @@
     padding: 0.75rem 1.5rem;
     font-size: 1.125rem;
     line-height: 1.125rem;
-    background-color: var(--color-segun);
-    color: var(--branco);
-    border: 2px solid var(--color-segun);
+    background-color: var(--branco);
+    color: black;
+    border: 1.6px solid var(--cor-fonte-post);
     cursor: pointer;
     transition: all 0.5s
 }
 
 .btnread:hover {
     background-color: var(--color-hover);
-    border: 2px solid var(--color-hover);
+    border: 1.6px solid var(--color-hover);
+    color: var(--branco);
 }
 
 @media (max-width: 1100px) {
