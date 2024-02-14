@@ -1,9 +1,10 @@
 import styles from "./PostModelo.module.css"
 
-export default function PostModelo( { title, about } ){
+export default function PostModelo( { title, about, children } ){
     return (
         <main className={styles.postCard}>
           <div> 
+
             <h1>
               {about}
             </h1>
@@ -12,11 +13,11 @@ export default function PostModelo( { title, about } ){
               {title}
             </p>
 
-            <div className={styles.socialCards}>
-                <a href="https://github.com/Luuan11">Github</a>
-
+            <div >
+              {children}
             </div>
+
           </div>
         </main>
-      )
-    }
+    )
+}

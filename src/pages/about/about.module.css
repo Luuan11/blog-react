@@ -1,5 +1,5 @@
 .socialCards{
-    margin-top: 150px;
+    margin-top: 15px;
 }
 
 .socialCards a{
@@ -9,4 +9,11 @@
     transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms; 
+}
+
+.myNetwork{
+    margin-top: 2.5rem; 
+    font-size: 1.125rem;
+    line-height: 1.75rem; 
+    font-weight: 700;
 }
