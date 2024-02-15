@@ -8,6 +8,7 @@ Página web, com diversos posts de diversos assuntos, voltada para um blog pesso
 esse projeto foi desenvolvido com as seguintes tecnologias:
 - React 
 - React-router-dom
+- React-icons
 
 ## 📜 Instalação
 
