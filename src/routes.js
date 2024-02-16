@@ -5,6 +5,7 @@ import Menu from "./components/Menu";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "components/Footer";
 import DefaultPage from "components/DefaultPage";
+import Post from "pages/Post";
 
 function AppRoutes() {
   return (
@@ -13,8 +14,9 @@ function AppRoutes() {
 
       <Routes>
         <Route path="/" element={<DefaultPage />} >
-          <Route path="/" element={<Home />}  />
-          <Route path="/sobre" element={<About />}  />
+          <Route index element={<Home />}  />
+          <Route path="sobre" element={<About />}  />
+          <Route path="posts/:id" element={<Post />} />
         </Route>
 
         <Route path="*" element={<div> Pagina não encontrada :( </div>}  />

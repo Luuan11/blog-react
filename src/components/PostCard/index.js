@@ -1,7 +1,7 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
-import styles from "./Post.module.css";
+import styles from "./PostCard.module.css";
 
-export default function Post( { post } ) {
+export default function PostCard( { post } ) {
     return (
         <div className={styles.post}>
             <img className={styles.capa} 
