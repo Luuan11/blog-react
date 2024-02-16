@@ -1,7 +1,10 @@
 import { useParams } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
 
 import posts from"json/posts.json";
 import PostModelo from "components/PostModelo";
+
+import "./Post.css"
 
 export default function Post(){
     const params = useParams();
@@ -13,9 +16,16 @@ export default function Post(){
     return (
         <PostModelo
             about={post.title}
-            title={post.texto}
-        >
 
+        >
+            <div className="posts-markdown">
+
+            <ReactMarkdown>
+                {post.texto}
+            </ReactMarkdown>
+
+            </div>
+            
         </PostModelo>
     ) 
     

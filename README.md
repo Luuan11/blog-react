@@ -9,6 +9,7 @@ esse projeto foi desenvolvido com as seguintes tecnologias:
 - React 
 - React-router-dom
 - React-icons
+- React-Markdown
 
 ## 📜 Instalação
 
