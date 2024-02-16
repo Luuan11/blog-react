@@ -1,12 +1,22 @@
-import { useParams } from "react-router-dom"
+import { useParams } from "react-router-dom";
+
+import posts from"json/posts.json";
+import PostModelo from "components/PostModelo";
 
 export default function Post(){
     const params = useParams();
 
-    console.log(params);
+    const post = posts.find((post) => {
+        return post.id === Number(params.id);
+    } )
 
     return (
-        <h1>Posts aqui </h1>
+        <PostModelo
+            about={post.title}
+            title={post.texto}
+        >
+
+        </PostModelo>
     ) 
     
 }
