@@ -11,7 +11,13 @@ export default function Post(){
 
     const post = posts.find((post) => {
         return post.id === Number(params.id);
-    } )
+    })
+
+    if(!post) {
+        return  <h1>
+                    Post não encontrado!
+                </h1>
+    }
 
     return (
         <PostModelo
