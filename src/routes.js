@@ -1,11 +1,14 @@
 import Home from "./pages/home";
 import About from "./pages/about";
+import NotFound from "pages/NotFound";
+import Post from "pages/Post";
+
 import Menu from "./components/Menu";
+import Footer from "components/Footer";
+
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Footer from "components/Footer";
 import DefaultPage from "components/DefaultPage";
-import Post from "pages/Post";
 
 function AppRoutes() {
   return (
@@ -19,7 +22,7 @@ function AppRoutes() {
           <Route path="posts/:id" element={<Post />} />
         </Route>
 
-        <Route path="*" element={<div> Pagina não encontrada :( </div>}  />
+        <Route path="*" element={<NotFound />}  />
       </Routes>
 
       <Footer />
