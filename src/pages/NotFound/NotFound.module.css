@@ -1,8 +1,15 @@
 .container{
-    border: 1px solid red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+    
 }
 
 .error{
+    font-size: 4em;
     color: purple;
 }
 

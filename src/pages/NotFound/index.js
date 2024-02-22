@@ -12,7 +12,7 @@ export default function NotFound() {
             </h1>
 
             <p className={styles.subtitle}>
-
+                Tem certeza que está 
             </p>
 
         </div>
