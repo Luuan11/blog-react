@@ -9,7 +9,7 @@ export default function NotFound() {
             </span>
 
             <h1 className={styles.title}>
-                Página não encontrada :C
+                Sua página não foi encontrada :C
             </h1>
 
             <p className={styles.subtitle}>
