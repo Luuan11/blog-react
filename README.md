@@ -1,5 +1,5 @@
 ## 💬 Sobre
-Página web, com diversos posts de diversos assuntos e uma pagina de sobre do criador (eu), utilizando react router para acessar os diversos posts
+Página web, com diversos posts de diversos assuntos e uma pagina de sobre do criador (eu), utilizando react router para acessar os diversos posts (a ser alterado)
 
 ## 💡 Tecnologias:
 
