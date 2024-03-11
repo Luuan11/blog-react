@@ -1,3 +1,8 @@
+![preview](https://github.com/Luuan11/organo/assets/79935555/c950c13f-e4b6-4dac-b1b9-77adac24f2a2)
+
+## <p align="center"> Clique aqui para ver meu projeto! </p>
+(Breve)
+
 ## 💬 Sobre
 Página web, com diversos posts de diversos assuntos e uma pagina de sobre do criador (eu), utilizando react router para acessar os diversos posts (a ser alterado)
 
